@@ -1,0 +1,331 @@
+/*----********************general************************/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.aside {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+}
+
+.aside-left{
+    background: #ddd;
+}
+
+.left-content{
+    background:  rgb(6, 92, 6);
+    height: 99%;
+    margin-top: 1%;
+}
+.top-content{
+    background: #ddd;
+}
+.down-content{
+    background: #eee;
+}
+.content{
+    display: grid;
+    grid-template-columns:30% 70%;
+    grid-template-rows: auto;
+    margin-left: 20%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+/***********************************************************/
+
+#aside-text{
+   padding-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.blog-image{
+    text-align: center; 
+    margin-bottom: 2rem;
+}
+#img-aside{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+.blog-bio{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    line-height: 1.5rem;
+    letter-spacing: .2px;
+}
+#abt_aside{
+    color: #fff;
+}
+#para {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.blog-icon{
+    text-align: center;
+   
+}
+.icon_social{
+    margin-left: .5rem;
+    background-color: #fff;
+    color: rgb(3, 131, 3);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 3px;
+}
+.border{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 80%;
+   border-bottom: 1px solid #eeee;
+   text-align: center;
+   margin-left: 5%;
+}
+.icon_link{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1rem;
+}
+#btn-aside{
+    width: 27%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: rgb(3, 36, 3);
+    color: #fff;
+}
+.blog-btn{
+    align-items: center;
+    text-align: center;
+}
+.top{
+    margin-left: 20%;
+}
+#top-heading{
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-transform: capitalize;
+    display: flex;
+    margin-bottom: .7rem;
+    letter-spacing: .6px;
+    padding-top: 2rem;
+}
+#top-para{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.top-btn{
+    text-align: center;
+}
+#search{
+    width: 50%;
+    height: 2.1rem;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+   margin-bottom: 8%;
+}
+#btn{
+    width: 15%;
+    height: 2.1rem;
+    border: none;
+    background-color: rgb(3, 131, 3);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+
+.img-content{
+    width: 200px;
+    height: 150px;
+}
+.content-image{
+    padding-bottom: 1rem;
+}
+.content-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: .1px;
+    line-height: 1.5rem;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+small{
+    color: rgb(114, 108, 108);
+}
+.content-para{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .5rem;
+}
+.more-link{
+    color: rgb(3, 131, 3);
+    text-decoration: none;
+    font-size: .8rem;
+}
+#content-btm{
+    padding-bottom: 4%;
+}
+
+
+
+/*****************About page*************************/
+
+.main-content{
+    margin-left: 20%;  
+    background: #fff;
+    padding-right: 5%;
+}
+#img-about{
+    width: 100%;
+}
+.about-para{
+    line-height: 1.5rem;
+}
+#about-{
+    margin-bottom: 5%;
+}
+
+
+
+/*
+=============== 
+Navbar
+===============
+*/
+nav {
+    background: #eee;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    color: #49a6e9;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;;
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    color: hsl(205, 86%, 17%);
+    transform: rotate(90deg);
+  }
+  
+  .links a {
+    color: hsl(209, 34%, 30%);
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+  }
+  .links a:hover {
+    background: hsl(205, 86%, 81%);
+    color: #49a6e9;
+    padding-left: 1.5rem;
+  }
+  .links {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+  .show-links {
+    height: 7.5rem;
+  }
+  #nav-title {
+    background-image: linear-gradient(to right bottom, #FBDB89, rgb(3, 131, 3));
+    transform: translate(-50%, 20%) skewY(-6deg);
+    margin-left: 17%;
+  }
+  .fa-bars{
+      font-size: 4rem;
+      color: rgb(3, 131, 3);
+      outline: none;
+  }
+  .link-anchor {
+      text-decoration: none;
+  }
+  .link{
+    color: rgb(3, 131, 3);
+    font-size: 1.2rem;  
+  }
+
+
+@media screen and (max-width: 980px){
+    .aside {
+        display: flex;
+       flex-direction: column;
+    }
+    .border, .blog-nav {
+        display: none;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+       margin-right: 5%;
+       padding-bottom: 2rem;
+    }
+    .blog-btn {
+        padding-bottom: 4rem;
+        margin-top: 2.5rem;
+    }
+    .top-btn{
+        display: inline-block;
+        padding-bottom: 3rem;
+    }
+    #btn, #search{
+        width: 90%;
+    }
+    .top, .top-btn{
+        margin-left: 10%;
+    }
+}
+  @media only screen and (min-width: 981px) {
+      nav {
+          display: none;
+      }
+  }
+
+  
